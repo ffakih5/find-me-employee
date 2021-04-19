@@ -1,14 +1,10 @@
 import React from "react";
 import "./style.css";
 
-function Navbar(props) {
+function Navbar() {
     return (
-        <nav className="navbar">
-            <div className="h1">Employee Directory
-            </div>
+        <nav className="navbar-expand-lg navbar-light bg-light">
         </nav>
-
-
     )
 }
 

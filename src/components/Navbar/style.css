@@ -1,0 +1,10 @@
+.navbar {
+    background-color: aliceblue;
+    height: 60px;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        height: auto;
+    }
+}
