@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import SearchBar from "./components/SearchBar";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
       <SearchBar />
       <Footer />
     </div>
-    </Router>
+  </Router>
    );
 
 }
