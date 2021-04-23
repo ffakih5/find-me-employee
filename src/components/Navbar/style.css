@@ -1,10 +1,14 @@
 .navbar {
-    background-color: aliceblue;
+    color: rgb(235, 208, 149);
     height: 60px;
 }
+.navbar-brand {
+    max-width: 100px;
+}
 
-@media (max-width: 576px) {
-    .navbar {
-        height: auto;
-    }
+.navbar-item:hover {
+    color:rgb(212, 93, 93);
+    transition: .2s;
+
+    
 }
