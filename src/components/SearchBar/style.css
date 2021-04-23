@@ -1,3 +1,8 @@
+.search {
+  margin: 20px 0;
+  border-radius: 25px;
+  border: #d68307 3px;
+}
 form.search {
     overflow: auto;
     margin-bottom: 10px;

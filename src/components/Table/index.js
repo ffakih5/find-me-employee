@@ -1,9 +1,11 @@
 import React from "react";
+import "./style.css";
 import TableData from "../TableData";
 
 function Table(props) {
     return(
-        <table style={{width: "100%"}}>
+        <div className="table-wrap">
+            <table style={{width: "100%"}}>
             <thead>
                 <tr>
                     <th scope="col">Image</th>
@@ -12,10 +14,13 @@ function Table(props) {
                     <th scope="col">Email</th>
                     <th scope="col">D.O.B</th>
                     <th scope="col">Location</th>
+                    <TableData userData={props.userData} />
                 </tr>
             </thead>
 
         </table>
+        </div>
+        
     )
 }
 

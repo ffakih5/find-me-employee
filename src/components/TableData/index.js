@@ -2,6 +2,8 @@ import react from "react";
 import "./style.css";
 
 function TableData(props) {
+    const User= props.userData;
+
     const dateConfig = (date) => {
         const newDate = new Date(date);
         const yyyy = newDate.getFullYear();
@@ -12,8 +14,9 @@ function TableData(props) {
         return dateData
       }
 
-    return props.map((user, index) => (
-        <tr className="table-row" key={index}>
+    return User.map((user, index) => (
+        <tr className="table-data" key={index}>
+            <th className="table-header" scope="row"><img className="profile-pic" src={user.picture.medium} alt="profile-pic" /></th>
             <td> {user.name.first}</td>
             <td> {user.name.last}</td>
             <td> {user.phone}</td>
