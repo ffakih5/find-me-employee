@@ -5,12 +5,12 @@ function Table(props) {
         <table style={{width: "100%"}}>
             <thead>
                 <tr>
-                    <th>Image</th>
-                    <th>Name</th>
-                    <th>Phone</th>
-                    <th>Email</th>
-                    <th>D.O.B</th>
-                    <th>Location</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">D.O.B</th>
+                    <th scope="col">Location</th>
                 </tr>
             </thead>
 
