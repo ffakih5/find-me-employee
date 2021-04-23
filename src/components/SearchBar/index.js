@@ -18,13 +18,6 @@ function SearchBar(props) {
         <button onClick={props.handleFormSubmit}>
                     Search
                 </button>
-                <button onClick={props.handleSort}>
-                    Sort
-                </button>
-                <button onClick={props.handleFormReset}>
-                    Reset
-                </button>
-
             </div>
         </div>
 
@@ -33,6 +26,5 @@ function SearchBar(props) {
 
     );
    
-
 }
 export default SearchBar;
