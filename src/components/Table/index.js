@@ -1,6 +1,5 @@
 import React from "react";
-import "./style.css";
-import TableData from "../TableData"
+import TableData from "../TableData";
 
 function Table(props) {
     return(
