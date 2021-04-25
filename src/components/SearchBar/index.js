@@ -22,8 +22,7 @@ function SearchBar(props) {
         </div>
 
         </form>
-       
-
+        
     );
    
 }
