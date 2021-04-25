@@ -15,7 +15,7 @@ function SearchBar(props) {
         placeholder="Find An Employee"
         id="search-bar"
         />
-        <button onClick={props.handleFormSubmit}>
+        <button className="search-btn" onClick={props.handleFormSubmit}>
                     Search
                 </button>
             </div>

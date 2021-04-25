@@ -1,14 +1,18 @@
 .navbar {
-    color: rgb(235, 208, 149);
     height: 60px;
+}
+.navbar-expand-lg{
+    background-color:  rgb(255, 254, 254);
 }
 .navbar-brand {
     max-width: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px !important; 
 }
 
 .navbar-item:hover {
     color:rgb(212, 93, 93);
     transition: .2s;
 
-    
 }

@@ -1,11 +1,10 @@
-
-form.search {
-    overflow: auto;
-    margin-bottom: 10px;
+#search-bar.form-control{
+  border-radius: 8px;
+  font-weight: 200;
+}
+  .search-btn{
+    border-radius: 8px;
+    font-weight: 200;
+    background-color: white;
+    outline-color: white;
   }
-  
-  form.search button[type="submit"] {
-    float: right;
-    margin-top: 10px;
-  }
-  

@@ -6,7 +6,7 @@ import icon from "../../assets/findemployee.png";
 
 function Navbar(props){
     return (
-        <nav className="navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar-expand-lg">
             <Link to="/">
                 <img className="navbar-brand" src={icon} alt="FindMeEmployee icon"></img>
             </Link>

@@ -7,13 +7,14 @@ function Table(props) {
         <div className="table-wrap">
             <table style={{width: "100%"}}>
             <thead>
-                <tr>  <br></br>
+                <tr> 
                     <th scope="col"></th>
-                    <th scope="col">Name</th> 
+                    <th scope="col">First Name</th> 
+                    <th scope="col">Last Name</th> 
                     <th scope="col">Phone</th> 
                     <th scope="col">Email</th> 
-                    <th scope="col">D.O.B</th> <br></br>
-                    <th scope="col">Location</th> <br></br>
+                    <th scope="col">D.O.B</th> 
+                    <th scope="col">Location</th> 
                 </tr>
                 <TableData userData={props.userData} />
             </thead>
