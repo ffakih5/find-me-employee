@@ -2,6 +2,7 @@
   "name": "employee-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ffakih5.github.io/find-me-employee",
   "dependencies": {
     "@auth0/auth0-react": "^1.4.0",
     "@testing-library/jest-dom": "^5.11.10",
@@ -38,5 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
 }
