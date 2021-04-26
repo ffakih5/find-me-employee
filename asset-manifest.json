@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/find-me-employee/static/css/main.5ecb8945.chunk.css",
+    "main.js": "/find-me-employee/static/js/main.dea23021.chunk.js",
+    "main.js.map": "/find-me-employee/static/js/main.dea23021.chunk.js.map",
+    "runtime-main.js": "/find-me-employee/static/js/runtime-main.fbb9a5ac.js",
+    "runtime-main.js.map": "/find-me-employee/static/js/runtime-main.fbb9a5ac.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/find-me-employee/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8cef3db6.chunk.js": "/find-me-employee/static/js/2.8cef3db6.chunk.js",
+    "static/js/2.8cef3db6.chunk.js.map": "/find-me-employee/static/js/2.8cef3db6.chunk.js.map",
+    "index.html": "/find-me-employee/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/find-me-employee/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.5ecb8945.chunk.css.map": "/find-me-employee/static/css/main.5ecb8945.chunk.css.map",
+    "static/js/2.8cef3db6.chunk.js.LICENSE.txt": "/find-me-employee/static/js/2.8cef3db6.chunk.js.LICENSE.txt",
+    "static/media/findemployee.c888b7de.png": "/find-me-employee/static/media/findemployee.c888b7de.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbb9a5ac.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.8cef3db6.chunk.js",
+    "static/css/main.5ecb8945.chunk.css",
+    "static/js/main.dea23021.chunk.js"
+  ]
+}
